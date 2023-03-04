@@ -20,11 +20,7 @@ load_dotenv()
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
-MOVIE_USERNAME="iNd3jDMYRKsN1pjQPMRz2nrq7N99q4Tsp9EY9cM0"
-MOVIE_PASSWORD="Ne5DoTQt7p8qrgkPdtenTK8zd6MorcCR5vXZIJNfJwvfafZfcOs4reyasVYddTyXCz9hcL5FGGIVxw3q02ibnBLhblivqQTp4BIC93LZHj4OppuHQUzwugcYu7TIC5H1"
-SECRET_KEY = 'django-insecure-eg0zvoxnnvg%6!#90-you-cant-touch-this-pwr62&($!x-&x7yur531ttol5d+)czqu'
 
-DEBUG = 'True'
 
 MOVIE_USERNAME = os.getenv('MOVIE_USERNAME')
 MOVIE_PASSWORD = os.getenv('MOVIE_PASSWORD')
