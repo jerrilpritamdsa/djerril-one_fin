@@ -3,7 +3,7 @@ from django.urls import path, include
 from .views import *
 urlpatterns = [
     
-    path('',MovieList.as_view() ),
+    path('movies/',MovieList.as_view() ),
     path('create-user/',CreateUserView.as_view() ),
     path('request-count/',CountRequestView.as_view() ),
     path('request-count/reset/',ResetCountRequestVIew.as_view() ),
